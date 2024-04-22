@@ -15,28 +15,28 @@ function carregar() {
         // Mensagem baseada na idade
         var mensagem = "";
         if (idade <= 10 && genero == "masculino" || genero == "feminino") {
-            console.log("Gênero: $genero , com $idade anos de idade.");
+            console.log("Gênero: ${genero} , com ${idade} anos de idade.");
             if (genero == masculino){
                 imagemSrc = "img/menino.jpeg";
             } else {
                 imagemSrc = "img/menina.jpg";
             }
         } else if (idade <= 25 && genero == "masculino" || genero == "feminino") {
-            console.log("Gênero: $genero , com $idade anos de idade.");
+            console.log("Gênero: ${genero} , com ${idade} anos de idade.");
             if (genero == masculino){
                 imagemSrc = "img/adolmasc.png";
             } else {
                 imagemSrc = "img/adolfem.png";
             }
         } else if (idade <= 60 && genero == "masculino" || genero == "feminino") {
-            console.log("Gênero: $genero , com $idade anos de idade.");
+            console.log("Gênero: ${genero} , com ${idade} anos de idade.");
             if (genero == masculino){
                 imagemSrc = "img/adulmasc.png";
             } else {
                 imagemSrc = "img/adulfem.png";
             }
         } else {
-            console.log("Gênero: $genero , com $idade anos de idade.");
+            console.log("Gênero: ${genero} , com ${idade} anos de idade.");
             if (genero == masculino){
                 imagemSrc = "img/velmasc.png";
             } else {
