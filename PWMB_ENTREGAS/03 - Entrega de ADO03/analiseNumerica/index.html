@@ -6,12 +6,15 @@
   <title>Análise de Sequência de Números</title>
 </head>
 <body>
-  <h1>Análise de Sequência de Números</h1>
+  <div>
+    <h1>Análise de Sequência de Números</h1>
+  </div>
+  
   <section>
    <label for="numero">Informe um número (entre 1 e 100): </label>
   <input type="number" id="numero" min="1" max="100">
-  <button onclick="incluirNumero()">Incluir</button>
-  <button onclick="finalizar()">Finalizar</button>
+  <button class="btn" onclick="incluirNumero()">Incluir</button>
+  <button class="btn" onclick="finalizar()">Finalizar</button>
   <br><br>
   <select id="numerosSelecionados" multiple></select>
   <div id="estatisticas"></div> 
